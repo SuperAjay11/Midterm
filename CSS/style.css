@@ -11,15 +11,39 @@ nav {
 }
 
 main {
-  background-color: #F8F4E3
+  background-color: #E3B7B6;
   height: 100vh;
 }
 
 p {
-  color: 2A2B2A;
-  fontsize: 1.8rem;
+  color: #9000B3;
+  font-size: 1.8rem;
 }
 
 img {
   max-width: 400px;
+}
+
+header {
+  color: #9000B3;
+}
+
+.sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+a:hover {
+  color: #80D39B;
+}
+
+a {
+  text-decoration: none;
+}
+a:link, a:visited {
+  color: blue;
+}
+a:hover {
+  color: #80D39B;
 }
